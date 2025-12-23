@@ -5,6 +5,7 @@ A modern, **fully local AI chatbot** built using  **DeepSeek-R1** ,  **Ollama** 
 This project demonstrates how powerful Large Language Models (LLMs) can be run  **locally without cloud APIs** , ensuring  **privacy, low cost, and full control** .
 
 ---
+<img width="1913" height="944" alt="Screenshot 2025-12-23 073704" src="https://github.com/user-attachments/assets/11273f4d-edc0-4b80-8165-f84e77aba437" />
 
 ## 🚀 Features
 
@@ -52,6 +53,40 @@ deepseek/
 
   *(UI designed for demo, resume, and portfolio use)*
 
+***⚙️ Installation & Setup***
+
+1️⃣ Prerequisites
+
+Python 3.9+
+
+Ollama installed on your system
+
+👉 Install Ollama: https://ollama.com
+
+2️⃣ Clone the Repository
+
+git clone https://github.com/moizbagwan/Ollama-Deepseek-Chatbot.git
+cd Ollama-Deepseek-Chatbot
+
+3️⃣ Install Dependencies
+
+pip install streamlit langchain langchain-ollama ollama
+
+4️⃣ Pull the DeepSeek Model
+
+ollama pull deepseek-r1:1.5b
+
+5️⃣ Run the Application
+
+streamlit run app.py
+
+📬 Author
+
+***Abdul Moiz Bagwan***
+
+Aspiring Data Scientist | AI & ML Enthusiast
+
+🔗 GitHub: https://github.com/moizbagwan
 
 ### 🔖 Tags
 
